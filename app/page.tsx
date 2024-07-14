@@ -37,6 +37,7 @@ export default function Home() {
       selflessAct: '',
       gratitude: '',
     })
+    router.push("/past-entries")
   };
   return (
 
