@@ -21,7 +21,9 @@ const page = () => {
                 <div className='border-b'>
                     <h2 className='text-xl font-bold mb-2'>How to Use the 5 Min Death Journal</h2>
                     <p>
-                    Take five minutes before nightfall to reflect and journal, capturing the essence of your day. Delve into your inner thoughts and record them with intention. Over time, revisit past entries to see your growth and confront past challenges, reflecting on your journey.</p>
+                        Each day, when you go to bed, remember that a part of you dies, making way for a new you to be born each morning. This cycle offers a chance for renewal and growth. Take five minutes before nightfall to reflect and journal, capturing the essence of your day. Delve into your inner thoughts and record them with intention.
+
+                        Consider the challenges you faced, the lessons learned, and the moments of joy. Over time, revisit past entries to witness your growth and confront past challenges. This practice will help you appreciate your journey and the person you are becoming.</p>
                 </div>
                 <div className='border-b'>
                     <h2 className='text-xl font-bold mb-2'>Sections of the Journal</h2>
@@ -48,8 +50,13 @@ const page = () => {
                         </li>
                     </ul>
                 </div>
-                <h2 className='text-xl font-bold mb-2'>Inspiration </h2>
-                <p>This journaling ritual was inspired by a thought-provoking <Link href={"https://www.youtube.com/watch?v=w_gohJgxBlU&t"} className='underline text-blue-200'>video</Link> on the YouTube channel <Link href={"https://www.youtube.com/@spoonfedstudy"} className='underline text-blue-200'>SpoonFedStudy</Link></p>
+                <div className='border-b'>
+                    <h2 className='text-xl font-bold mb-2'>Inspiration </h2>
+                    <p>This journaling ritual was inspired by a thought-provoking <Link href={"https://www.youtube.com/watch?v=w_gohJgxBlU&t"} className='underline text-blue-200'>video</Link> on the YouTube channel <Link href={"https://www.youtube.com/@spoonfedstudy"} className='underline text-blue-200'>SpoonFedStudy</Link></p>
+                </div>
+                <div className='border-b py-2'>
+                    <p>Developed By <Link href={"https://www.instagram.com/neerajchaudhary.31/"} className='underline text-blue-200 italic text-center'>Neerajkumar.</Link></p>
+                </div>
             </div>
         </main>
     )
