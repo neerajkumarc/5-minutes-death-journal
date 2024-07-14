@@ -20,7 +20,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={cn(myFont.className, "tracking-[3px] bg-[#090109] text-white")} ><Header/>{children}<Toaster /></body>
+      <body className={cn(myFont.className, "tracking-[3px] bg-[#090109] text-white")} ><Header />{children}
+      <Toaster />
+      <script defer src="https://umami-false-analytics.vercel.app/script.js" data-website-id="efcdbef0-b266-48c8-91d0-0a3c8afe8df2"></script> 
+      </body>
     </html>
   );
 }
