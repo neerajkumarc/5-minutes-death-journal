@@ -1,6 +1,4 @@
 "use client"
-import { Label } from '@/components/ui/label'
-import Image from 'next/image'
 import React, { useEffect, useState } from 'react'
 import { useRouter } from "next/navigation"
 import { Button } from '@/components/ui/button'
